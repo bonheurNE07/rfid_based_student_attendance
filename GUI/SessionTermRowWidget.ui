@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>928</width>
+    <height>50</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>50</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>50</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QLabel" name="session_term_id_label">
+     <property name="text">
+      <string>N/O</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="session_term_session_label">
+     <property name="text">
+      <string>N/O</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="session_term_term_lbl">
+     <property name="text">
+      <string>N/O</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="session_term_status_lbl">
+     <property name="text">
+      <string>N/O</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="session_term_date_lbl">
+     <property name="text">
+      <string>N/O</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="session_term_status_check">
+     <property name="styleSheet">
+      <string notr="true">border:none;
+background-color:none;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="Resources/icons/skyblue/skyblue.qrc">
+       <normaloff>:/skyblue_icons/check.svg</normaloff>:/skyblue_icons/check.svg</iconset>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="session_term_edit_btn">
+     <property name="styleSheet">
+      <string notr="true">border:none;
+background-color:none;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="Resources/icons/skyblue/skyblue.qrc">
+       <normaloff>:/skyblue_icons/edit.svg</normaloff>:/skyblue_icons/edit.svg</iconset>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="session_term_delete_btn">
+     <property name="styleSheet">
+      <string notr="true">border:none;
+background-color:none;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="Resources/icons/skyblue/skyblue.qrc">
+       <normaloff>:/skyblue_icons/trash-2.svg</normaloff>:/skyblue_icons/trash-2.svg</iconset>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="Resources/icons/skyblue/skyblue.qrc"/>
+ </resources>
+ <connections/>
+</ui>

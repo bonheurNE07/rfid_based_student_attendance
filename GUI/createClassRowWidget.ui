@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>createClasseTableRowWidget</class>
+ <widget class="QWidget" name="createClasseTableRowWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>370</width>
+    <height>50</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>50</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>50</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string/>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="2">
+    <widget class="QPushButton" name="editButton">
+     <property name="text">
+      <string>Edit</string>
+     </property>
+     <property name="icon">
+      <iconset resource="Resources/icons/skyblue/skyblue.qrc">
+       <normaloff>:/skyblue_icons/edit.svg</normaloff>:/skyblue_icons/edit.svg</iconset>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLabel" name="classNameLabel">
+     <property name="text">
+      <string>N/O</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="classNumberLabel">
+     <property name="text">
+      <string>N/O</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="3">
+    <widget class="QPushButton" name="deleteButton">
+     <property name="text">
+      <string>Delete</string>
+     </property>
+     <property name="icon">
+      <iconset resource="Resources/icons/skyblue/skyblue.qrc">
+       <normaloff>:/skyblue_icons/trash.svg</normaloff>:/skyblue_icons/trash.svg</iconset>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="Resources/images.qrc"/>
+  <include location="Resources/icons/grey/grey.qrc"/>
+  <include location="Resources/icons/skyblue/skyblue.qrc"/>
+  <include location="Resources/icons/wiht/wiht.qrc"/>
+ </resources>
+ <connections/>
+</ui>

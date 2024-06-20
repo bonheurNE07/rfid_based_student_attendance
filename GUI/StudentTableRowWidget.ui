@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ViewstudentRowWidget</class>
+ <widget class="QWidget" name="ViewstudentRowWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>879</width>
+    <height>50</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>50</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>50</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QLabel" name="student_id_label">
+     <property name="text">
+      <string>N/O</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="student_firstname_lbl">
+     <property name="text">
+      <string>N/O</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="student_lastname_lbl">
+     <property name="text">
+      <string>N/O</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="student_othername_lbl">
+     <property name="text">
+      <string>N/O</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="student_addminsion_nbr_lbl">
+     <property name="text">
+      <string>N/O</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="student_class_lbl">
+     <property name="text">
+      <string>N/O</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="student_course_lbl">
+     <property name="text">
+      <string>N/O</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="student_date_created_lbl">
+     <property name="text">
+      <string>N/O</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="edit_student_button">
+     <property name="styleSheet">
+      <string notr="true">border:none;
+background-color:none;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="Resources/icons/skyblue/skyblue.qrc">
+       <normaloff>:/skyblue_icons/edit.svg</normaloff>:/skyblue_icons/edit.svg</iconset>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="delete_student_button">
+     <property name="styleSheet">
+      <string notr="true">border:none;
+bckground-color:none;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="Resources/icons/skyblue/skyblue.qrc">
+       <normaloff>:/skyblue_icons/trash-2.svg</normaloff>:/skyblue_icons/trash-2.svg</iconset>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="Resources/icons/skyblue/skyblue.qrc"/>
+ </resources>
+ <connections/>
+</ui>
